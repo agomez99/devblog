@@ -30,10 +30,18 @@ const Nav = () => (
               </ul>
             </div>
             <div className="uk-navbar-right">
+              <Link to="https://www.twitter.com/austine_gomez"   
+              className="uk-button uk-button-default uk-margin-right" >Twitter
+              </Link>
+              <Link to="https://github.com/agomez99"   
+              className="uk-button uk-button-default uk-margin-right" >Github
+              </Link>
+              <Link to="https://www.linkedin.com/in/austine-gomez/"   
+              className="uk-button uk-button-default uk-margin-right" >LinkedIn
+              </Link>
               <button
                 className="uk-button uk-button-default uk-margin-right"
-                type="button"
-              >
+                type="button">
                 Categories
               </button>
               <div uk-dropdown="animation: uk-animation-slide-top-small; duration: 1000">
