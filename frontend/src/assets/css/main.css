@@ -1,15 +1,27 @@
+
+@font-face {
+
+  font-family: 'MyWebFont';
+  src: url('mando.otf'); /* IE9 Compat Modes */
+
+}
+
+
+
 a {
     text-decoration: none !important;
   }
   
   h1 {
-    font-family: Staatliches !important;
+    font-family: 'MyWebFont', Fallback, sans-serif;
     font-size: 120px !important;
   }
-  
+  p{
+    font-family: 'MyWebFont', Fallback, sans-serif;
+
+  }
   #category {
-    font-family: Staatliches !important;
-    font-weight: 500 !important;
+    font-family: 'MyWebFont', Fallback, sans-serif;
   }
   
   #title {
@@ -17,9 +29,17 @@ a {
     font-size: 22px !important;
     font-size: 1.375rem !important;
     line-height: 1.13636 !important;
+    font-family: 'MyWebFont', Fallback, sans-serif;
+
   }
   
+#hdr{
+  font-family: 'MyWebFont', Fallback, sans-serif;
+
+}
+
   #banner {
+    
     margin: 20px !important;
     height: 800px !important;
   }
@@ -39,3 +59,4 @@ a {
     opacity: 1 !important;
     transition: opacity 0.25s cubic-bezier(0.39, 0.575, 0.565, 1) !important;
   }
+

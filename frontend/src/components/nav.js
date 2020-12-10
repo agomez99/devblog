@@ -1,5 +1,6 @@
 import React from "react";
 import { Link, StaticQuery, graphql } from "gatsby";
+import { SocialIcon } from 'react-social-icons';
 
 const Nav = () => (
   <StaticQuery
@@ -25,20 +26,16 @@ const Nav = () => (
             <div className="uk-navbar-left">
               <ul className="uk-navbar-nav">
                 <li>
-                  <Link to="/">{data.strapiGlobal.siteName}</Link>
+                  <Link  to="/">{data.strapiGlobal.siteName}</Link>
                 </li>
               </ul>
             </div>
             <div className="uk-navbar-right">
-              <Link to="https://www.twitter.com/austine_gomez"   
-              className="uk-button uk-button-default uk-margin-right" >Twitter
-              </Link>
-              <Link to="https://github.com/agomez99"   
-              className="uk-button uk-button-default uk-margin-right" >Github
-              </Link>
-              <Link to="https://www.linkedin.com/in/austine-gomez/"   
-              className="uk-button uk-button-default uk-margin-right" >LinkedIn
-              </Link>
+            <div style={{paddingRight:"10px"}}>
+            <SocialIcon url="https://www.linkedin.com/in/austine-gomez" />
+            <SocialIcon url="https://www.twitter.com/austine_gomez" />
+            <SocialIcon url="https://github.com/agomez99" />
+            </div>
               <button
                 className="uk-button uk-button-default uk-margin-right"
                 type="button">
