@@ -1,7 +1,7 @@
 import React from "react";
 import { Link, StaticQuery, graphql } from "gatsby";
 import SocialFollow from "./SocialFollow"
-
+import "../assets/css/main.css"
 const Nav = () => (
   <StaticQuery
     query={graphql`
@@ -32,17 +32,7 @@ const Nav = () => (
             </div>
             <div className="uk-navbar-right">
 
-
             <SocialFollow />
-              <Link to="https://www.twitter.com/austine_gomez"   
-              className="uk-button uk-button-default uk-margin-right" >Twitter
-              </Link>
-              <Link to="https://github.com/agomez99"   
-              className="uk-button uk-button-default uk-margin-right" >Github
-              </Link>
-              <Link to="https://www.linkedin.com/in/austine-gomez/"   
-              className="uk-button uk-button-default uk-margin-right" >LinkedIn
-              </Link>
               <button
                 className="uk-button uk-button-default uk-margin-right"
                 type="button">
