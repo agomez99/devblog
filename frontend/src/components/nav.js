@@ -1,5 +1,6 @@
 import React from "react";
 import { Link, StaticQuery, graphql } from "gatsby";
+import SocialFollow from "./SocialFollow"
 
 const Nav = () => (
   <StaticQuery
@@ -30,6 +31,9 @@ const Nav = () => (
               </ul>
             </div>
             <div className="uk-navbar-right">
+
+
+            <SocialFollow />
               <Link to="https://www.twitter.com/austine_gomez"   
               className="uk-button uk-button-default uk-margin-right" >Twitter
               </Link>

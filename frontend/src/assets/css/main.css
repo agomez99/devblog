@@ -20,10 +20,7 @@ a {
     font-family: 'MyWebFont', Fallback, sans-serif;
 
   }
-  #category {
-    font-family: 'MyWebFont', Fallback, sans-serif;
-  }
-  
+
   #title {
     letter-spacing: 0.4px !important;
     font-size: 22px !important;
