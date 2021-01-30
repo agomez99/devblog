@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import { StaticQuery, graphql } from "gatsby";
 import Nav from "./nav";
 import Seo from "./seo";
-
+import Social from "./SocialShare";
 const Layout = ({ children, seo }) => (
   <StaticQuery
     query={graphql`
@@ -23,7 +23,11 @@ const Layout = ({ children, seo }) => (
       <>
         <Seo seo={seo} />
         <Nav />
+
         <main>{children}</main>
+        <Social />
+
+
       </>
     )}
   />
