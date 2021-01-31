@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "gatsby";
 import Img from "gatsby-image";
-import Social from "./SocialShare";
 
 const Card = ({ article }) => {
   return (
@@ -40,8 +39,8 @@ const Card = ({ article }) => {
           </div>
         </div>
       </div>
-      <Social/>
     </Link>
+    
   );
 };
 
