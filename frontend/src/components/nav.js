@@ -2,6 +2,9 @@ import React from "react";
 import { Link, StaticQuery, graphql } from "gatsby";
 import SocialFollow from "./SocialFollow"
 import "../assets/css/main.css"
+
+
+
 const Nav = () => (
   <StaticQuery
     query={graphql`
@@ -19,7 +22,9 @@ const Nav = () => (
         }
       }
     `}
+    
     render={(data) => (
+      
       <div>
         <div>
           <nav className="uk-navbar-container" data-uk-navbar>
@@ -39,7 +44,7 @@ const Nav = () => (
                 Categories
               </button>
               <div uk-dropdown="animation: uk-animation-slide-top-small; duration: 1000">
-                <ul className="uk-nav uk-dropdown-nav">
+                <ul className="uk-nav uk-dropdown-nav" style={{fontSize:"1.7rem"}}>
                   {data.allStrapiCategory.edges.map((category, i) => (
                     <li key={`category__${category.node.slug}`}>
                       <Link to={`/category/${category.node.slug}`}>
