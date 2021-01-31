@@ -7,7 +7,7 @@ import React from "react";
       fontSize: 14,
       color: "#4a54f1",
       textAlign: "center",
-      paddingTop: "100px",
+      paddingBottom: "100px",
   }
     return (
         <div class="social-share" style={styleObj}>
