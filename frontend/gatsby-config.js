@@ -24,6 +24,13 @@ module.exports = {
     "gatsby-transformer-sharp",
     "gatsby-plugin-sharp",
     {
+      resolve: `gatsby-styled-components-dark-mode`,
+      options: {
+          light: { mainColor: 'brandyRose'},
+          dark: { mainColor: 'manatee'},
+      },
+    },
+    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: "gatsby-starter-default",
