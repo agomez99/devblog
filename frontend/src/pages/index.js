@@ -7,11 +7,17 @@ import "../assets/css/main.css";
 const IndexPage = () => {
   const data = useStaticQuery(query);
 
+
+
   return (
     <Layout seo={data.strapiHomepage.seo}>
       <div className="uk-section">
         <div className="uk-container uk-container-large">
-          <h1 id="hdr">{data.strapiHomepage.hero.title}</h1>
+          <h1 className="hdr"  
+          style={{
+          backgroundColor: 'var(--bg)',
+          color: 'var(--textNormal)',
+            }}>{data.strapiHomepage.hero.title}</h1>
           <ArticlesComponent articles={data.allStrapiArticle.edges} />
         </div>
       </div>

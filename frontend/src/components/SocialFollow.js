@@ -9,7 +9,7 @@ import {
 
 export default function SocialFollow() {
   return (
-<div class="social-container">
+<div className="social-container">
       <a href="https://www.linkedin.com/in/austine-gomez/"
         className="linkedin social">
         <FontAwesomeIcon icon={faLinkedin} size="3x" />

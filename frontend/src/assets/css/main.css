@@ -1,13 +1,12 @@
 
 @font-face {
-
   font-family: 'MyWebFont';
   src: url('mando.otf'); /* IE9 Compat Modes */
 
 }
 body {
   --bg: white;
-  --textNormal: #222;
+  --textNormal: rgb(0, 0, 0);
   --textTitle: #222;
   --textLink: blue;
   --hr: hsla(0, 0%, 0%, 0.2);
@@ -17,12 +16,14 @@ body {
 
 body.dark {
   -webkit-font-smoothing: antialiased;
-  --bg: rgb(34, 37, 37);
+  --bg: rgb(13, 17, 17);
   --textNormal: rgba(255, 255, 255, 0.88);
   --textTitle: white;
   --textLink: yellow;
-  --hr: hsla(0, 0%, 100%, 0.2);
+  --hr: hsl(0, 0%, 100%);
 }
+
+
 
 .toggle{
   float:right;
@@ -38,7 +39,6 @@ a {
   }
   p{
     font-family: 'MyWebFont', Fallback, sans-serif;
-
   }
 
   #title {
@@ -50,10 +50,11 @@ a {
 
   }
   
-#hdr{
+.hdr{
   font-family: 'MyWebFont', Fallback, sans-serif;
 
 }
+
 
   #banner {
     

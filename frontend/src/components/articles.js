@@ -9,7 +9,7 @@ const Articles = ({ articles }) => {
 
   return (
     <div>
-      <div className="uk-child-width-1-2@s" data-uk-grid="true" style={{marginLeft:"100px"}}>
+      <div className="uk-child-width-1-2@s" data-uk-grid="true" style={{marginLeft:"0px"}}>
         <div>
           {leftArticles.map((article, i) => {
             return (

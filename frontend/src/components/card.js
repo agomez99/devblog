@@ -31,7 +31,10 @@ const Card = ({ article }) => {
                 )}
               </div>
               <div className="uk-width-expand">
-                <p className="uk-margin-remove-bottom">
+                <p className="uk-margin-remove-bottom" style={{
+                      backgroundColor: 'var(--bg)',
+                      color: 'var(--textNormal)',
+                        }}>
                   {article.node.author.name}
                 </p>
               </div>
