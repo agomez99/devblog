@@ -10,17 +10,18 @@ body {
   --textTitle: #222;
   --textLink: blue;
   --hr: hsla(0, 0%, 0%, 0.2);
-
   background-color: var(--bg);
 }
 
 body.dark {
   -webkit-font-smoothing: antialiased;
   --bg: rgb(13, 17, 17);
-  --textNormal: rgba(255, 255, 255, 0.88);
+  --textNormal: rgba(253, 253, 253, 0.88);
   --textTitle: white;
   --textLink: yellow;
   --hr: hsl(0, 0%, 100%);
+  background-color: var(--bg);
+
 }
 
 
@@ -29,14 +30,20 @@ body.light {
   -webkit-font-smoothing: antialiased;
   --bg: rgb(248, 248, 248);
   --textNormal: rgba(12, 11, 11, 0.88);
-  --textTitle: rgb(19, 18, 18), 3, 3);
+  --textTitle: rgb(19, 18, 18);
   --textLink: yellow;
   --hr: hsl(0, 0%, 100%);
 }
 
 .toggle{
   float:right;
-  margin-right: 10%;;
+  margin-right:0%;;
+}
+.left_nav{
+  text-align: center;
+}
+.cat-button{
+  display: block;
 }
 a {
     text-decoration: none !important;

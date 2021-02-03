@@ -3,7 +3,6 @@ import PropTypes from "prop-types";
 import { StaticQuery, graphql } from "gatsby";
 import Nav from "./nav";
 import Seo from "./seo";
-import Toggler from '../components/Toggler'
 const Layout = ({ children, seo }) => (
   <StaticQuery
     query={graphql`
@@ -23,13 +22,9 @@ const Layout = ({ children, seo }) => (
       <>
         <Seo seo={seo} />
         <Nav />
-        <Toggler 
-          style={{
-          backgroundColor: 'var(--bg)',
-          color: 'var(--textNormal)',
-          transition: 'color 0.2s ease-out, background 0.2s ease-out',
-        }}/>
-        <main>{children}</main>
+        <main>
+        {children}
+        </main>
       </>
     )}
   />
