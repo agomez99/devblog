@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "gatsby";
 import Img from "gatsby-image";
-
 const Card = ({ article }) => {
   return (
     <Link to={`/article/${article.node.slug}`} className="uk-link-reset" style={{

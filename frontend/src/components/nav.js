@@ -37,7 +37,6 @@ const Nav = () => (
               <li>
                 <Link to="/">{data.strapiGlobal.siteName}</Link>{" "}
               </li>
-              <ul className="uk-navbar-nav" className="left-nav">
                 <li className="cat-button">
                   <button
                     className="uk-button uk-button-default uk-margin-left"
@@ -56,7 +55,6 @@ const Nav = () => (
                     </ul>
                   </div>
                 </li>
-              </ul>
             </div>
             <div className="uk-navbar-right" style={{ marginRight: "5%" }}>
               <ul className="uk-navbar-nav">
