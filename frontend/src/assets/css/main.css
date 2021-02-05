@@ -85,7 +85,7 @@ a {
   }
   
   .uk-navbar-container {
-    background: #fff !important;
+    background-color: var(--bg);
     font-family: Staatliches !important;
   }
   
@@ -113,6 +113,10 @@ a {
   
   a.github {
     color: #0c0c0c;
+  }
+    
+  a.github.dark {
+    --bg: white;
   }
   
   .react-toggle {

@@ -26,15 +26,20 @@ const Nav = () => (
 
     render={(data) => (
 
-      <div>
+      <div >
         <div>
-          <nav className="uk-navbar-container" data-uk-navbar
+          <nav className="uk-navbar-container" data-uk-navbar             
+          style={{
+            backgroundColor: 'var(--bg)',
+              color: 'var(--textNormal)',
+              marginLeft:"5%",
+            }}>
+            <div className="uk-navbar-left"             
             style={{
-              backgroundColor: 'var(--textNormal)',
+            backgroundColor: 'var(--bg)',
               color: 'var(--textNormal)',
             }}>
-            <div className="uk-navbar-left">
-              <li>
+              <li style={{listStyle:"none"}}>
                 <Link to="/">{data.strapiGlobal.siteName}</Link>{" "}
               </li>
                 <li className="cat-button">
@@ -56,7 +61,11 @@ const Nav = () => (
                   </div>
                 </li>
             </div>
-            <div className="uk-navbar-right" style={{ marginRight: "5%" }}>
+            <div className="uk-navbar-right"             
+            style={{
+            backgroundColor: 'var(--bg)',
+              color: 'var(--textNormal)',
+            }}>
               <ul className="uk-navbar-nav">
                 <li>
                   <SocialFollow />
