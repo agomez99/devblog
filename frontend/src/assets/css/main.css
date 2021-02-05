@@ -54,7 +54,8 @@ a {
     font-size: 120px !important;
   }
   p{
-    font-family: 'MyWebFont', Fallback, sans-serif;
+    font-family: 'Roboto', Fallback, sans-serif;
+    font-size: 1.6rem;
   }
 
   #title {
