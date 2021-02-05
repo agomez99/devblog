@@ -4,6 +4,14 @@
   src: url('mando.otf'); /* IE9 Compat Modes */
 
 }
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg);
+
+}
 body {
   --bg: white;
   --textNormal: rgb(0, 0, 0);
@@ -30,7 +38,6 @@ body.dark {
 }
 
 
-
 body.light {
   -webkit-font-smoothing: antialiased;
   --bg: rgb(248, 248, 248);
@@ -39,7 +46,10 @@ body.light {
   --textLink: yellow;
   --hr: hsl(0, 0%, 100%);
 }
+.uk-section{
+  background-color: var(--bg);
 
+}
 .toggle{
   float:right;
   margin-right:0%;;
