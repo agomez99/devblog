@@ -54,7 +54,7 @@ const Article = ({ data }) => {
           data-srcset={article.image.publicURL}
           data-uk-img
         >
-          <h1>{article.title}</h1>
+          <h1 className="article-title">{article.title}</h1>
         </div>
 
         <div className="uk-section">
