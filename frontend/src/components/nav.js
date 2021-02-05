@@ -32,7 +32,6 @@ const Nav = () => (
           style={{
             backgroundColor: 'var(--bg)',
               color: 'var(--textNormal)',
-              marginLeft:"5%",
             }}>
             <div className="uk-navbar-left"             
             style={{
