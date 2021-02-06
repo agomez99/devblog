@@ -54,10 +54,11 @@ const Article = ({ data }) => {
           data-srcset={article.image.publicURL}
           data-uk-img
         >
-          <h1 className="article-title">{article.title}</h1>
         </div>
 
         <div className="uk-section">
+        <h1 className="article-title">{article.title}</h1>
+
           <div className="uk-container uk-container-small">
             <Markdown source={article.content} escapeHtml={false} />
 

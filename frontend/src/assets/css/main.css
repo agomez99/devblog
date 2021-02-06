@@ -66,7 +66,7 @@ a {
   
   h1 {
     font-family: 'MyWebFont', Fallback, sans-serif;
-    font-size: 120px !important;
+    font-size:  3rem !important;
   }
   p{
     font-family: 'Roboto', Fallback, sans-serif;
@@ -89,9 +89,10 @@ a {
 .article-title{
   text-align: center;
   display: block;
+  font-size: 33rem;
 }
   #banner {
-    
+    font-size: small;
     height: 300px !important;
     width:50% !important;
     display: block;
