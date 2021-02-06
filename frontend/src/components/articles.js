@@ -17,7 +17,6 @@ const Articles = ({ articles }) => {
                 article={article}
                 key={`article__left__${article.node.slug}`}
               />
-              
             );
 
           })}
