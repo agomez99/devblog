@@ -4,6 +4,7 @@ import Img from "gatsby-image";
 import Moment from "react-moment";
 import Layout from "../components/layout";
 import Markdown from "react-markdown";
+import Social from "../components/SocialShare";
 
 export const query = graphql`
   query ArticleQuery($slug: String!) {
@@ -83,6 +84,8 @@ const Article = ({ data }) => {
               </div>
             </div>
           </div>
+
+            <Social />
         </div>
       </div>
     </Layout>
