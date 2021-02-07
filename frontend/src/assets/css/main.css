@@ -20,13 +20,15 @@ body {
   --hr: hsla(0, 0%, 0%, 0.2);
   --twitter:#1DA1F2;
   --linkedin:#2867B2;
+  --p:black;
   background-color: var(--bg);
 }
 
 body.dark {
   -webkit-font-smoothing: antialiased;
   --bg: rgb(13, 17, 17);
-  --textNormal: rgba(253, 253, 253, 0.88);
+  --p:white;
+  --textNormal: white;
   --textTitle: white;
   --textLink: yellow;
   --hr: hsl(0, 0%, 100%);
@@ -45,6 +47,8 @@ body.light {
   --textTitle: rgb(19, 18, 18);
   --textLink: yellow;
   --hr: hsl(0, 0%, 100%);
+  --p:black;
+
 }
 .uk-section{
   background-color: var(--bg);

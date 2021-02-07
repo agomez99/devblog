@@ -17,7 +17,7 @@ const Card = ({ article }) => {
         <div className="uk-card-body">
           <p id="category" className="uk-text-uppercase" style={{
             backgroundColor: 'var(--bg)',
-            color: 'var(--textNormal)',
+            color: 'var(--p)',
           }}>
             {article.node.category.name}
           </p>

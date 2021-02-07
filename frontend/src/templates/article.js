@@ -58,13 +58,17 @@ const Article = ({ data }) => {
         </div>
 
         <div className="uk-section">
-        <h1 className="article-title">{article.title}</h1>
+        <h1 className="article-title"  style={{
+            color: 'var(--p)',
+              }}>{article.title}</h1>
 
-          <div className="uk-container uk-container-small">
-            <Markdown source={article.content} escapeHtml={false} />
+          <div className="uk-container uk-container-small" style={{
+            color: 'var(--p)',
+              }}>
+            <Markdown source={article.content} escapeHtml={false} 
+          />
             <Social />
             <hr className="uk-divider-small" />
-
             <div className="uk-grid-small uk-flex-left" data-uk-grid="true">
               <div>
                 {article.author.picture && (
