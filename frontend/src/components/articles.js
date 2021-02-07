@@ -1,6 +1,5 @@
 import React from "react";
 import Card from "./card";
-import Social from "./SocialShare";
 
 const Articles = ({ articles }) => {
   const leftArticlesCount = Math.ceil(articles.length / 5);
@@ -33,8 +32,6 @@ const Articles = ({ articles }) => {
             })}
           </div>
         </div>
-        <Social/>
-
       </div>
     </div>
   );

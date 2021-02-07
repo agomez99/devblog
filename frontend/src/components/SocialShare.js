@@ -11,6 +11,7 @@ import React from "react";
   }
     return (
         <div class="social-share" style={styleObj}>
+          <label>Share</label>
               <Twitter link={"https://agblog.gtsb.io/" } />   
               <Facebook  link={"https://agblog.gtsb.io/" } /> 
               <Linkedin  link={"https://agblog.gtsb.io/" } />              

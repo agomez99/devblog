@@ -62,7 +62,7 @@ const Article = ({ data }) => {
 
           <div className="uk-container uk-container-small">
             <Markdown source={article.content} escapeHtml={false} />
-
+            <Social />
             <hr className="uk-divider-small" />
 
             <div className="uk-grid-small uk-flex-left" data-uk-grid="true">
@@ -84,8 +84,6 @@ const Article = ({ data }) => {
               </div>
             </div>
           </div>
-
-            <Social />
         </div>
       </div>
     </Layout>
