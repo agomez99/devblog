@@ -16,11 +16,11 @@ module.exports = {
       resolve: "gatsby-plugin-social-cards",
       options: {
         // ommit to skip
-        authorImage: "./static/img/coffee-art.jpg",
+        authorImage: "https://github.com/agomez99/react_portfolio/blob/master/client/public/images/avatar.png",
         // image to use when no cover in frontmatter
-        backgroundImage: "./static/img/hvitserkur.JPG",
+        backgroundImage: "./back.jpg",
         // author to use when no auth in frontmatter
-        defaultAuthor: "Andri Óskarsson",
+        defaultAuthor: "Austine Gomez",
         // card design
         design: "default", // 'default' or 'card'
       },
@@ -69,4 +69,13 @@ module.exports = {
     "gatsby-plugin-offline",
     'gatsby-plugin-dark-mode',
   ],
+  siteMetadata: {
+    title: "Severus Snape",
+    titleTemplate: "%s · The Real Hero",
+    description:
+      "Hogwarts Potions master, Head of Slytherin house and former Death Eater.",
+    url: "https://www.doe.com", // No trailing slash allowed!
+    image: "/images/snape.jpg", // Path to your image you placed in the 'static' folder
+    twitterUsername: "@occlumency",
+  },
 };

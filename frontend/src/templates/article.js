@@ -5,6 +5,7 @@ import Moment from "react-moment";
 import Layout from "../components/layout";
 import Markdown from "react-markdown";
 import Social from "../components/SocialShare";
+import SEO from "../components/seo";
 
 export const query = graphql`
   query ArticleQuery($slug: String!) {
@@ -47,6 +48,7 @@ const Article = ({ data }) => {
 
   return (
     <Layout seo={seo}>
+      <SEO title="My Amazing Gatsby App" />
       <div>
         <div
           id="banner"
