@@ -3,7 +3,7 @@ import { graphql, useStaticQuery } from "gatsby";
 import Layout from "../components/layout";
 import ArticlesComponent from "../components/articles";
 import "../assets/css/main.css";
-import SEO from "../components/seo";
+import Seo from "../components/seo";
 
 const IndexPage = () => {
   const data = useStaticQuery(query);
@@ -12,7 +12,7 @@ const IndexPage = () => {
 
   return (
     <Layout seo={data.strapiHomepage.seo}>
-      <SEO title="My Amazing Gatsby App" />
+              <Seo />
 
       <div className="uk-section">
         <div className="uk-container uk-container-large">
