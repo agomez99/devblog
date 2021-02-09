@@ -16,6 +16,8 @@ export default class extends Component {
     
     return (
       <div style={{marginLeft:"5%", marginRight:"5%", backgroundColor:"white", padding:"40px"}}>
+      <p align="center"><img src="images/wim-128.png" /></p>
+
       <h4>Comments</h4>
         <Disqus.DiscussionEmbed
           shortname={disqusShortname}
