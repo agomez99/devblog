@@ -6,6 +6,7 @@ import Layout from "../components/layout";
 import Markdown from "react-markdown";
 import Social from "../components/SocialShare";
 import SEO from "../components/seo";
+import Disqus from '../components/Disqus';
 
 export const query = graphql`
   query ArticleQuery($slug: String!) {
@@ -90,6 +91,8 @@ const Article = ({ data }) => {
               </div>
             </div>
           </div>
+          <Disqus/>
+
         </div>
       </div>
     </Layout>
