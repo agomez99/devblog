@@ -61,12 +61,15 @@ const Article = ({ data }) => {
         </div>
 
         <div className="uk-section">
-        <h1 className="article-title"  style={{
+        <h1 className="article-title"  
+        style={{
             color: 'var(--p)',
               }}>{article.title}</h1>
 
-          <div className="uk-container uk-container-small" style={{
+          <div className="uk-container uk-container-small" 
+          style={{
             color: 'var(--p)',
+            fontSize:"22px",
               }}>
             <Markdown source={article.content} escapeHtml={false} 
           />

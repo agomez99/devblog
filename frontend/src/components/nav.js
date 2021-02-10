@@ -26,7 +26,7 @@ const Nav = () => (
 
     render={(data) => (
 
-      <div >
+      <div className="nav-div">
         <div>
           <nav className="uk-navbar-container" data-uk-navbar
             style={{
