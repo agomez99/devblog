@@ -11,14 +11,18 @@ export default class extends Component {
       title: "Title of Your Article",
       language: "en"
     }
-
-
     
     return (
-      <div style={{marginLeft:"5%", marginRight:"5%", backgroundColor:"white", padding:"40px",marginTop:"5%", borderRadius:".5%"}}>
-      <p align="center"><img src="images/wim-128.png" /></p>
+      <div style={{ marginLeft: "5%", marginRight: "5%", backgroundColor: "white", padding: "40px", marginTop: "5%", borderRadius: ".5%" }}>
+        <div>
+          <div class="uk-tile uk-tile-primary uk-padding-small">
+            <p align="center"><h4>Drop A Comment</h4>
+            </p>
+            <span uk-icon="comments; ratio: 3"></span>
+          </div>
+        </div>
 
-      <h4>Comments</h4>
+
         <Disqus.DiscussionEmbed
           shortname={disqusShortname}
           config={disqusConfig}
