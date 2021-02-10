@@ -15,7 +15,7 @@ export default class extends Component {
 
     
     return (
-      <div style={{marginLeft:"5%", marginRight:"5%", backgroundColor:"white", padding:"40px"}}>
+      <div style={{marginLeft:"5%", marginRight:"5%", backgroundColor:"white", padding:"40px",marginTop:"5%", borderRadius:".5%"}}>
       <p align="center"><img src="images/wim-128.png" /></p>
 
       <h4>Comments</h4>

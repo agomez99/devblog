@@ -28,7 +28,7 @@ export const query = graphql`
         name
         picture {
           childImageSharp {
-            fixed(width: 30, height: 30) {
+            fixed(width: 70, height: 70) {
               src
             }
           }
@@ -74,8 +74,8 @@ const Article = ({ data }) => {
             <Markdown source={article.content} escapeHtml={false} 
           />
             <Social />
-            <hr className="uk-divider-small" />
-            <div className="uk-grid-small uk-flex-left" data-uk-grid="true">
+            <hr />
+            <div className="uk-grid-small uk-flex-left" data-uk-grid="true" style={{display:"block", textAlign:"center"}}>
               <div>
                 {article.author.picture && (
                   <Img
@@ -84,7 +84,7 @@ const Article = ({ data }) => {
                   />
                 )}
               </div>
-              <div className="uk-width-expand">
+              <div className="uk-width-expand" >
                 <p className="uk-margin-remove-bottom">
                   By {article.author.name}
                 </p>
