@@ -15,7 +15,7 @@ export default class extends Component {
     return (
       <div style={{ marginLeft: "5%", marginRight: "5%", backgroundColor: "white", padding: "40px", marginTop: "5%", borderRadius: ".5%" }}>
         <div>
-          <div class="uk-tile uk-tile-primary uk-padding-small">
+          <div className="uk-tile uk-tile-primary uk-padding-small">
             <p align="center"><h4>Drop A Comment</h4>
             </p>
             <span uk-icon="comments; ratio: 3"></span>

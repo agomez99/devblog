@@ -12,7 +12,7 @@ const IndexPage = () => {
 
   return (
     <Layout seo={data.strapiHomepage.seo}>
-              <Seo />
+      <Seo title="All posts" />
 
       <div className="uk-section">
         <div className="uk-container uk-container-large">
